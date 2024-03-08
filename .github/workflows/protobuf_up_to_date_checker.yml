@@ -34,7 +34,7 @@ jobs:
 
     - name: Setup and Run Protobuf Generation
       run: |
-        make setup-protobuf
+        make setup_proto
         make gen_proto
 
     - name: Check Diff
