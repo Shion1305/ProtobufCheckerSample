@@ -39,6 +39,5 @@ jobs:
 
     - name: Check Diff
       run: |
-        git add .
         git diff --exit-code
 
