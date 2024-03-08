@@ -11,10 +11,9 @@ on:
       - 'proto/**'
 
 jobs:
-  check-migration:
+  check-protobuf-up-to-date:
     runs-on: ubuntu-latest
-
-steps:
+    steps:
     - name: Install Protoc
       uses: arduino/setup-protoc@v3
       with:
